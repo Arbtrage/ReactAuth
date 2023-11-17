@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --dark-background: #202023;
+    --dark-color:white;
+  }
+  
+  html {
+    --background: var(--dark-background);
+    --color:var(--dark-color)
+  }
